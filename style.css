@@ -1,0 +1,48 @@
+body {
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.cabeçalho > h1 {
+    color:#427D77;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    letter-spacing: 0.2;
+    margin-bottom: 0px;
+}
+
+.cabeçalho{
+    background-color: rgba(255, 255, 255, 0.637);
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 8px;
+    width: 500px; 
+    height: 200px;   
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 25px;
+}
+
+.painel p {
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    padding: 0px;
+    margin: 5px;
+}
+
+.painel > div > button{
+    background-color: pink;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-color: black;
+    
+}
+
+.painel button:hover{
+    transition:  0.2s;
+    background-color:#FD7289;
+}
