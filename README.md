@@ -1,2 +1,2 @@
 # Timer
-Meu primeiro projeto utilizando JS
+My first project using js
